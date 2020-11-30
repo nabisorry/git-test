@@ -9,6 +9,4 @@ categories:
     label: "documentation"
 change-template: "- $TITLE #$NUMBER @$AUTHOR "
 template: |
-  ## Uncategorized
-  $CHANGES
-  ### Bump setup.py version must be included here!
+  이거 테스트입니돵 우후후후후
