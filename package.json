@@ -1,0 +1,9 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": " 깃테스트 문서입니다",
+  "main": "index.js",
+  "repository": "https://github.com/planzcoffee/git-test",
+  "author": "planz-coffee",
+  "license": "MIT"
+}
