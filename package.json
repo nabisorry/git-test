@@ -1,10 +1,6 @@
 {
   "name": "git-test",
-<<<<<<< HEAD
-  "version": "1.5.1",
-=======
-  "version": "1.5.0", 
->>>>>>> 9168bad16a18281d4fbbfd32f978d06d008d000e
+  "version": "1.6.1",
   "description": " 깃테스트 문서입니다",
   "main": "index.js",
   "repository": "https://github.com/planzcoffee/git-test",
