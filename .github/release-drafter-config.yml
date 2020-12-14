@@ -1,5 +1,5 @@
-name-template: "v$NEXT_MINOR_VERSION ☕"
-tag-template: "v$NEXT_MINOR_VERSION"
+name-template: "v$RESOLVED_VERSION☕"
+tag-template: "v$RESOLVED_VERSION"
 categories:
   - title: "🚀 Features"
     label: "type: feature"
@@ -9,8 +9,19 @@ categories:
     labels: "type: docs"
   - title: "🔗 dependencies"
     labels: "type: dependencies"
+version-resolver:
+  major:
+    labels:
+      - "type: breaking"
+  minor:
+    labels:
+      - "type: feature"
+  patch:
+    labels:
+      - "type: bug"
+      - "type: docs"
+      - "type: dependencies"
 change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
-change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
 template: |
   ## Uncategorized 
 
