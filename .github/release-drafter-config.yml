@@ -2,21 +2,16 @@ name-template: "v$NEXT_MINOR_VERSION 🌈"
 tag-template: "v$NEXT_MINOR_VERSION"
 categories:
   - title: "🚀 Features"
-    labels:
-      - "feature"
-      - "enhancement"
+    label: "type: feature"
   - title: "🐛 Bug Fixes"
-    labels:
-      - "fix"
-      - "bugfix"
-      - "bug"
+    labels: "type: bug"
+  - title: "📓 Documentation"
+    labels: "type: docs"
+  - title: "🔗 dependencies"
+    labels: "type: dependencies"
 change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
 template: |
   ## Uncategorized 
 
   $CHANGES
-  ### 버전테스트 1.2.2
-  ### 버전테스트 1.2.3
-  ### 버전테스트 1.3.0
-  ### 버전테스트 1.3.1
